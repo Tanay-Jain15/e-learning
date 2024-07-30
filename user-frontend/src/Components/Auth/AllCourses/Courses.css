@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+.home-nav-c {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-md-2 {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+.col-md-2 button {
+  color: aliceblue;
+  margin-top: 1rem;
+}
+
+.col-md-10 {
+  border: 2px solid black;
+}
+
+.col-md-10 h1 {
+  padding: 0.5rem 0 0 30rem;
+}
+
+.row {
+  height: 100vh;
+  background-image: url("../../../../public/assets/picturereact.jpg");
+}
+
+.inter_video {
+  padding: 3rem 3rem 3rem 8rem;
+  z-index: 999;
+  position: relative;
+}
+/* .person1 {
+  position: absolute;
+  left: 40rem;
+  right: 25rem;
+  bottom: 25rem;
+  top: 15rem;
+  width: 25rem;
+  height: 33rem;
+  background-image: url("../../../../public/assets/Image1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box;
+} */
+.person4 {
+  position: absolute;
+  left: 40rem;
+  right: 25rem;
+  bottom: 25rem;
+  top: 15rem;
+  width: 25rem;
+
+  height: 33rem;
+  /* background-image: url("../../../../public/assets/Image2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box; */
+}
+.Home_conatin {
+  margin-right: 10px !important;
+}
+.intro-logo {
+  width: 80px;
+  height: auto;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.home_logo {
+  width: 80px !important;
+}

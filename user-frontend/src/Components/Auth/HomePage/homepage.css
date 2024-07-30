@@ -1,0 +1,187 @@
+.homepage-background {
+  background-color: lightgrey;
+}
+
+.homepage {
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+.intro-logo-homepage {
+  width: 5rem;
+  height: auto;
+  margin-left: 3rem;
+}
+
+.header {
+  background-color: white;
+  color: black;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0;
+  margin-top: 2rem;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.info-about-us {
+  margin-left: 52rem;
+}
+
+.name-of-website {
+  font: normal;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: black;
+  width: 100%;
+  background-color: white;
+}
+.first-home {
+  background-color: #f1f1f1;
+}
+.second-home {
+  background-color: white;
+  margin-top: 3rem;
+}
+.fourth-home {
+  background-color: white;
+}
+.welcome-section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.homepage-image {
+  width: 40rem;
+  background-image: url(../../../../public/assets/homepage.logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 32rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-right: -8rem;
+}
+
+.text-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20px;
+  margin-left: 8rem;
+}
+
+.welcome {
+  font: initial;
+  font-size: 5rem;
+}
+
+.all-about {
+  margin-bottom: 40px;
+  width: 80%;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.feature {
+  width: 22%;
+  background-color: white;
+  padding: 0;
+  border: 36px solid white;
+  border-radius: 2px;
+  margin-top: 5rem;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  color: #777;
+  width: 100%;
+}
+
+.favourite-courses {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.Image-hp {
+  width: 22%;
+  background-color: black;
+  padding: 0;
+  border: 36px solid black;
+  border-radius: 5px;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.A-image,
+.B-image,
+.C-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+}
+
+.A-image {
+  background-image: url("../../../../public/assets/React.png");
+}
+
+.B-image {
+  background-image: url("../../../../public/assets/HTML.jpg");
+}
+
+.C-image {
+  background-image: url("../../../../public/assets/js_logo.jpg");
+}
