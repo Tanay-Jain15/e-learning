@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login-pg .container{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    background-image: url('./workspace.jpg');
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+
+.login-pg .intro{
+    
+    background-image: url('./login_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    /* box-shadow: 0px 0px 10px 0px red; */
+    box-shadow: 0px 0px 25px 0 #000, 8px 8px 20px 0px #9a0079, -8px -8px 20px 0px #440072;
+    border-radius: .8rem;
+    justify-content: center;
+    width:60rem;
+    height: 34rem;
+    padding: 6.5rem;
+    margin-top: 5rem;
+    position: relative;
+}   
+
+.login-pg .intro-logo-1 {
+    /* display: block; */
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    max-width: 100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.612);
+}
+
+.login-pg .admin{
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: .2rem;
+}
+
+.login-pg .login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;  
+    margin-top: 2rem;
+ }
+
+ .login-pg .login-form label{
+    color: #fff;
+    /* margin-top: 1.5rem; */
+    font-size: 1.3rem;
+    font-weight:bolder;
+    /* margin-bottom: 0.5rem; */
+    text-transform: uppercase;
+    margin-right: 3rem;
+}
+
+.login-pg .button-container {    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    /* margin-top: 1.5rem; */
+    
+ }
+ .login-pg .my-button{
+    font-weight: bolder;
+    font-size:medium;
+    padding: .3rem .8rem .3rem .8rem;
+    border-radius: 1rem;
+    background-color: greenyellow;
+    border: none;
+    margin-top: 1rem;
+    /* transition: scale 0.3s ease; */
+
+    /* box-shadow: 8px 9px 8px rgba(0, 0, 0, 0.393);  */
+    /* transition: box-shadow 0.3s ease; */
+    
+}
+
+.login-pg .my-button:hover{
+    
+    cursor: pointer;
+    background-color:rgb(142, 237, 0);
+    /* scale: 1.1; */
+}
+
+.login-pg .my-button:active{
+    background-color:rgb(109, 182, 0);
+}
+
+.login-pg .inter-intro{
+    border: 5px solid white;
+    height: 20rem;
+    width: 15rem;
+    border-radius: .5rem;
+}
+
+
+
+.login-pg .login-form, .button-container{
+    flex: 1 1 50%;
+    max-width:100%;
+    box-sizing: border-box;
+}
+
+.login-pg .login-form input{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(0, 0, 0);
+    /* box-shadow: 0 8px 16px rgba(38, 7, 7, 0.468);  */
+    outline: none !important;
+}
+
+.login-pg .user-label{
+    margin-bottom: .5rem;
+}
+
+/* .set-pass{
+    margin-right: 1.5rem;
+}
+    */
+
+.login-pg .set-pass input{
+    margin-top:.5rem;
+}  
+
+.login-pg .signup-button-container{
+    margin-top: 1.3rem;
+}
+
+.login-pg .signup-button{
+    cursor: pointer;
+    font-weight: bolder;
+    font-size:medium;
+    padding: .3rem .5rem .3rem .5rem;
+    border-radius: 1rem;
+    background-color: greenyellow;
+    /* background-color: rgba(255, 56, 56, 0.984); */
+    border: none;
+}
+
+.login-pg .signup-button:hover{
+    
+    cursor: pointer;
+    background-color:rgb(255, 0, 0);
+}
+
+.login-pg .signup-button:active{
+    background-color:rgb(188, 0, 0);
+}
+
+.login-pg .U-P{
+    text-align: center;
+    margin-bottom: 1rem;
+}

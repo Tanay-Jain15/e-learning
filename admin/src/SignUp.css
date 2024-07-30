@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-pg .container{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    background-image: url('./signup_bg.jpg');
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+
+.signup-pg .intro{
+    
+    /* background-image: url('./login_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat; */
+    background-color: rgba(0, 0, 0, 0.438);
+    box-shadow: 0px 0px 25px 0 #000, 8px 8px 20px 0px #9a0079, -8px -8px 20px 0px #440072;
+    border-radius: .8rem;
+    justify-content: center;
+    /* width:60rem; */
+    width: 28rem;
+    height: 34rem;
+    padding: 6.5rem;
+    margin-top: 5rem;
+    position: relative;
+    transition: transform 1s ease;
+}   
+
+.signup-pg .intro:hover{
+    transform:scale(1.1);
+}
+
+.signup-pg .intro-logo-1 {
+    /* display: block; */
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    max-width: 100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.612);
+    transition: transform 1s ease;
+}
+
+.signup-pg .intro-logo-1:hover{
+    transform:scale(1.1);
+}
+
+.signup-pg .admin{
+    margin-left: .8rem;
+    margin-bottom: .5rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: .2rem;
+}
+
+.signup-pg .login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .signup-pg .login-form label{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight:bolder;
+    text-transform: uppercase;
+    margin-left: .3rem;
+}
+
+.signup-pg .login-form .user-part{
+    margin-top: 1.5rem;  /* Keep as is */
+    margin-bottom: 0.2rem;
+    margin-left: 1.5rem;
+}
+
+.signup-pg .login-form .pass-part{
+    margin-top: 0.2rem;  /* Keep as is */
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+
+}
+
+.signup-pg .button-container {    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 2.5rem;
+    
+ }
+ .signup-pg .my-button{
+    font-weight: bolder;
+    font-size:medium;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 1rem;
+    background-color: greenyellow;
+    border: none;
+    /* box-shadow: 8px 9px 8px rgba(0, 0, 0, 0.393); 
+    transition: box-shadow 0.3s ease; */
+    
+}
+
+.signup-pg .my-button:hover{
+    
+    cursor: pointer;
+    background-color:rgb(142, 237, 0)
+}
+
+.signup-pg .my-button:active{
+    background-color:rgb(109, 182, 0);
+}
+
+.signup-pg .inter-intro{
+    border: 5px solid white;
+    height: 23rem;
+    width: 15rem;
+    border-radius: .5rem;
+}
+
+
+/* 
+.signup-pg .loin-form,.signup-pg  .button-container{
+    flex: 1 1 50%;
+    max-width:100%;
+    box-sizing: border-box;
+} */
+
+.signup-pg .login-form input{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(0, 0, 0);
+    /* box-shadow: 0 8px 16px rgba(38, 7, 7, 0.468);  */
+    outline: none !important;
+}
+
+
+/* ******************************************************************************************************************* */
+
+#loader {
+    position: absolute;
+    top: 83%;
+    left: 61.5%;
+    margin-top: -2.7em;
+    margin-left: -2.7em;
+    width: 5.4em;
+    height: 5.4em;
+    background-color:transparent;
+  }
+  
+  #hill {
+    position: absolute;
+    width: 7.1em;
+    height: 7.1em;
+    top: 1.7em;
+    left: 1.7em;
+    background-color: transparent;
+    border-left: .25em solid whitesmoke;
+    border-left: .25em solid rgb(0, 0, 0);
+
+    transform: rotate(45deg);
+  }
+  
+  #hill:after {
+    content: '';
+    position: absolute;
+    width: 7.1em;
+    height: 7.1em;
+    left: 0;
+    background-color:transparent;
+  }
+  
+  #box {
+    position: absolute;
+    left: 0;
+    bottom: -.1em;
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border: .25em solid whitesmoke;
+    border: .25em solid #000000;
+
+    border-radius: 15%;
+    transform: translate(0, -1em) rotate(-45deg);
+    animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;
+  }
+  
+  @keyframes push {
+    0% {
+      transform: translate(0, -1em) rotate(-45deg);
+    }
+    5% {
+      transform: translate(0, -1em) rotate(-50deg);
+    }
+    20% {
+      transform: translate(1em, -2em) rotate(47deg);
+    }
+    25% {
+      transform: translate(1em, -2em) rotate(45deg);
+    }
+    30% {
+      transform: translate(1em, -2em) rotate(40deg);
+    }
+    45% {
+      transform: translate(2em, -3em) rotate(137deg);
+    }
+    50% {
+      transform: translate(2em, -3em) rotate(135deg);
+    }
+    55% {
+      transform: translate(2em, -3em) rotate(130deg);
+    }
+    70% {
+      transform: translate(3em, -4em) rotate(217deg);
+    }
+    75% {
+      transform: translate(3em, -4em) rotate(220deg);
+    }
+    100% {
+      transform: translate(0, -1em) rotate(-225deg);
+    }
+  }
+
+
+/* ############################################################################################################ */
+/* ############################################################################################################ */
+
+
+
